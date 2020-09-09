@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="3" ignored="0" total="4" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="10965" started-at="2020-09-08T20:55:29 EDT" finished-at="2020-09-08T20:55:40 EDT">
+    <groups>
+      <group name="regression">
+        <method signature="LoginTestData1$ExcelUtility.getSheet(java.lang.String)[pri:0, instance:com.hrms.testcases.LoginTestData1$ExcelUtility@4d41cee]" name="getSheet" class="com.hrms.testcases.LoginTestData1$ExcelUtility"/>
+        <method signature="LoginTestData1$ExcelUtility.openExcel(java.lang.String)[pri:0, instance:com.hrms.testcases.LoginTestData1$ExcelUtility@4d41cee]" name="openExcel" class="com.hrms.testcases.LoginTestData1$ExcelUtility"/>
+        <method signature="LoginTestData1.invalidLogin(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.hrms.testcases.LoginTestData1@17579e0f]" name="invalidLogin" class="com.hrms.testcases.LoginTestData1"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="LoginTestData1.validLogin()[pri:0, instance:com.hrms.testcases.LoginTestData1@17579e0f]" name="validLogin" class="com.hrms.testcases.LoginTestData1"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test name="Default test" duration-ms="10965" started-at="2020-09-08T20:55:29 EDT" finished-at="2020-09-08T20:55:40 EDT">
+      <class name="com.hrms.testcases.LoginTestData1$ExcelUtility">
+        <test-method status="FAIL" signature="getSheet(java.lang.String)[pri:0, instance:com.hrms.testcases.LoginTestData1$ExcelUtility@4d41cee]" name="getSheet" duration-ms="0" started-at="2020-09-08T20:55:29 EDT" finished-at="2020-09-08T20:55:29 EDT">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Cannot inject @Test annotated Method [getSheet] with [class java.lang.String].
+For more information on native dependency injection please refer to https://testng.org/doc/documentation-main.html#native-dependency-injection]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Cannot inject @Test annotated Method [getSheet] with [class java.lang.String].
+For more information on native dependency injection please refer to https://testng.org/doc/documentation-main.html#native-dependency-injection
+at org.testng.internal.Parameters.checkParameterTypes(Parameters.java:437)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:351)
+at org.testng.internal.Parameters.createParameters(Parameters.java:708)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:875)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:740)
+at org.testng.internal.ParameterHandler.handleParameters(ParameterHandler.java:59)
+at org.testng.internal.ParameterHandler.createParameters(ParameterHandler.java:38)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:789)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getSheet -->
+        <test-method status="FAIL" signature="openExcel(java.lang.String)[pri:0, instance:com.hrms.testcases.LoginTestData1$ExcelUtility@4d41cee]" name="openExcel" duration-ms="0" started-at="2020-09-08T20:55:29 EDT" finished-at="2020-09-08T20:55:29 EDT">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Cannot inject @Test annotated Method [openExcel] with [class java.lang.String].
+For more information on native dependency injection please refer to https://testng.org/doc/documentation-main.html#native-dependency-injection]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Cannot inject @Test annotated Method [openExcel] with [class java.lang.String].
+For more information on native dependency injection please refer to https://testng.org/doc/documentation-main.html#native-dependency-injection
+at org.testng.internal.Parameters.checkParameterTypes(Parameters.java:437)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:351)
+at org.testng.internal.Parameters.createParameters(Parameters.java:708)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:875)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:740)
+at org.testng.internal.ParameterHandler.handleParameters(ParameterHandler.java:59)
+at org.testng.internal.ParameterHandler.createParameters(ParameterHandler.java:38)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:789)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openExcel -->
+      </class> <!-- com.hrms.testcases.LoginTestData1$ExcelUtility -->
+      <class name="com.hrms.testcases.LoginTestData1">
+        <test-method status="FAIL" signature="invalidLogin(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.hrms.testcases.LoginTestData1@17579e0f]" name="invalidLogin" duration-ms="0" started-at="2020-09-08T20:55:29 EDT" data-provider="invalidCredentials" finished-at="2020-09-08T20:55:29 EDT">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Method public void com.hrms.testcases.LoginTestData1.invalidLogin(java.lang.String,java.lang.String,java.lang.String) requires a @DataProvider named : invalidCredentials]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Method public void com.hrms.testcases.LoginTestData1.invalidLogin(java.lang.String,java.lang.String,java.lang.String) requires a @DataProvider named : invalidCredentials
+at org.testng.internal.Parameters.findDataProvider(Parameters.java:559)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:772)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:740)
+at org.testng.internal.ParameterHandler.handleParameters(ParameterHandler.java:59)
+at org.testng.internal.ParameterHandler.createParameters(ParameterHandler.java:38)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:789)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidLogin -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.hrms.testcases.LoginTestData1@17579e0f]" name="setUp" is-config="true" duration-ms="7537" started-at="2020-09-08T20:55:29 EDT" finished-at="2020-09-08T20:55:37 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="validLogin()[pri:0, instance:com.hrms.testcases.LoginTestData1@17579e0f]" name="validLogin" duration-ms="2316" started-at="2020-09-08T20:55:37 EDT" finished-at="2020-09-08T20:55:39 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validLogin -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.hrms.testcases.LoginTestData1@17579e0f]" name="tearDown" is-config="true" duration-ms="1067" started-at="2020-09-08T20:55:39 EDT" finished-at="2020-09-08T20:55:40 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.hrms.testcases.LoginTestData1 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
